@@ -101,6 +101,18 @@ LEFT JOIN salaries s on s.emp_no=e.emp_no
 WHERE e.emp_no = '499942'
 order by last_name asc;
 
+--Bonus Material Query
+SELECT 
+ 	e.emp_no as "employee number"
+	, last_name as "Last Name"
+	, first_name as "First Name"
+	, sex
+	, s.salary
+	, t.title
+FROM employees e
+LEFT JOIN salaries s on s.emp_no=e.emp_no
+LEFT JOIN titles t on t.title_id=e.emp_title_id
+order by last_name asc;
 
 
 
