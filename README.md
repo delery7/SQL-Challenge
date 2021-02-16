@@ -1,10 +1,15 @@
 #### Data Engineering
 
 Employees ERD.pgn is a visual of the schema required
+
 EmployeeSQL Folder - houses the raw data and SQL files
+
 SchemaCreation.sql - found in the EmployeeSQL folder.  Used to create the Postgress tables
+
 DataExploration.sql - found in the EmployeeSQL folder.  Used to answer the data analysis questions below
+
 data folder - found in EmployeeSQL folder.  Raw data imported into the Schema created in the sql file above
+
 SQL Alchemy.ipynb - Jupyter notebook that used SQLAlchemy to import a data set from the postgress database and then provide a couple of visuals for the data
 
 #### Data Analysis
